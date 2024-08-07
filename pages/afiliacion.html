@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afiliacion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../assets/icons/pngwing.com (1).png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -14,13 +16,55 @@
     </header>
     <main>
         <h2 class="form-title">Formulario de Afiliación</h2>
-        <form action="submit" class="form-afiliat"></form>
+        <form action="submit" class="form-afiliat" method="post">
+            <label for="nombre-completo">Nombre completo:</label>
+        <input type="text" id="nombre-completo" name="nombre-completo" required><br><br>
+
+        <label for="primer-apellido">Primer apellido:</label>
+        <input type="text" id="primer-apellido" name="primer-apellido" required><br><br>
+
+        <label for="segundo-apellido">Segundo apellido:</label>
+        <input type="text" id="segundo-apellido" name="segundo-apellido" required><br><br>
+
+        <label for="fecha-nacimiento">Fecha de nacimiento (dd/mm/aaaa):</label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br><br>
+
+        <label for="documento">Documento o pasaporte:</label>
+        <input type="text" id="documento" name="documento" required><br><br>
+
+        <label for="departamento">Departamento de residencia:</label>
+        <input type="text" id="departamento" name="departamento" required><br><br>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+        <label for="localidad">Localidad:</label>
+        <input type="text" id="localidad" name="localidad" required><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit">Enviar</button>
+        </form>
         <div class="terms"><p></p></div>
     </main>
     <footer>
         <p class="reserved"></p>
-        <div class="socials"></div>
-        <p class="phone"><i></i>123456789</p>
+        <div class="socials">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        <p class="phone"><i class="fa-solid fa-phone"></i>123456789</p>
     </footer>
+    <script src="https://kit.fontawesome.com/090c602a0a.js" crossorigin="anonymous"></script>
 </body>
 </html>
