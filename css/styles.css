@@ -44,6 +44,13 @@ body {
     background-size: cover;
 }
 
+.agenda {
+    background-image: url(../assets/images/ciudad.jpg);
+    background-color: rgba(22, 9, 0, 0.89);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
 /* ---------- Header styles ---------- */
 
 header {
