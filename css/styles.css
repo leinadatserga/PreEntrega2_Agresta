@@ -21,10 +21,25 @@ body {
     padding: 0;
 }
 
+/* ---------- Body styles ---------- */
 
 body {
     background-image: url(../assets/images/corridor-central-perspective-980x560.jpeg);
     background-color: rgba(0, 0, 22, 0.89);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.afiliacion {
+    background-image: url(../assets/images/ventanal.jpeg);
+    background-color: rgba(0, 22, 21, 0.89);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.nosotros {
+    background-image: url(../assets/images/ventanal2.png);
+    background-color: rgba(22, 0, 15, 0.89);
     background-blend-mode: overlay;
     background-size: cover;
 }
@@ -75,12 +90,36 @@ main .row {
     height: 100%;
 }
 
+.sobre-nosotros {
+    height: auto;
+}
+
 .imagen {
     max-height: 60%;
 }
 
 .imagen img {
     border-radius: 70px 5px;
+}
+
+.contenedor-historia {
+    height: 60%;
+}
+
+.titulo-historia {
+    font-family: title;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.historia {
+    margin-bottom: 8px;
+    font-family: best;
+    font-size: 1rem;
+    height: 100%;
+    color: rgb(196, 223, 247);
+    overflow-x: auto;
 }
 
 .banner1 {
@@ -92,9 +131,15 @@ main .row {
 }
 
 .formulario {
-    height: 60%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
     overflow-x: auto;
+}
+
+.form-afiliat {
+    background-color: rgba(255, 228, 196, 0.658);
+    padding: 60px;
+    border-radius: 70px 5px;
 }
 
 /* ---------- Buttons styles ---------- */
@@ -170,6 +215,20 @@ footer p {
 
     .imagen img {
         border-radius: 70px 5px;
+    }
+
+    .contenedor-historia {
+        height: 100%;
+    }
+
+    .titulo-historia {
+        font-size: 2rem;
+        margin: 40px 0px;
+    }
+    
+    .historia {
+        font-size: 1.5rem;
+        height: 100%;
     }
 
     .banner1 {
