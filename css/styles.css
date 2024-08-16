@@ -148,6 +148,7 @@ main .row .banner2 a {
   background-color: rgba(255, 228, 196, 0.658);
   padding: 60px;
   border-radius: 70px 5px;
+  color: white;
 }
 
 .agenda-main .agenda-especialidades {
